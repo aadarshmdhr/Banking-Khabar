@@ -3,7 +3,7 @@ import { RiGlobalFill } from "react-icons/ri";
 import { FaFacebookF } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 
-
+import logo from '../assets/banking-logo.jpg'
 
 
 function Header() {
@@ -20,6 +20,11 @@ function Header() {
                     </ul>
                 </div>
             </section>
+            <header className='py-6'>
+                <div className="container mx-auto">
+                    <img className='w-[300px]' src={logo} alt="" />
+                </div>
+            </header>
         </>
     )
 }
